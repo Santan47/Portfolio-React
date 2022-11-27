@@ -1,0 +1,58 @@
+#Projects .p_card{
+    /* background-color: cadetblue; */
+    border: 1px solid white;
+    position: relative;
+    min-height: 270px;
+    display: flex;
+    /* align-items: ; */
+    flex-direction: column;
+    margin: 10px 10px 20px 0px;
+    width: 362px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+#Projects .p-10{
+    padding: 10px;
+}
+
+#Projects .tag{
+    width: fit-content;
+    background: linear-gradient(grey,transparent);
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+
+#Projects .title{
+    font-size: 24px;
+    font-weight: 600;
+    /* color: black; */
+}
+
+#Projects .cardDesc{
+    height: 80px;
+    overflow: auto;
+    font-size: 12px;
+    /* color: black; */
+}
+
+#Projects .course-card--bottom{
+    width: 130px;
+    height: 38px;
+    background: linear-gradient(var(--color-primary),transparent);
+    padding: 10px 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
